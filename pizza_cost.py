@@ -10,7 +10,7 @@ def main():
     # input of from the user
     diameter = int(input("Enter the diameter of the pizza (inches): "))
 
-    # the process
+    # the process of calculation
     subtotal = (
         constants.LABOUR_COST + constants.INGRED_COST * diameter + constants.RENTAL_COST
     )
@@ -20,6 +20,7 @@ def main():
     # output
     print("")
     print("the total cost of the pizza is = ${:,.2f}".format(total))
+
 
 if __name__ == "__main__":
     main()
